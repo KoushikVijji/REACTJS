@@ -6,7 +6,7 @@ function App() {
 
   useEffect(() => {
     const countWords = () => {
-      const words = text.split(/\s+/).filter(Boolean); // Split by spaces and remove empty strings
+      const words = text.split(/\s+/).filter(Boolean);
       return words.length;
     };
 
